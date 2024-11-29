@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    bg-
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration-line: none;
+    color: #fff;
+}
+
+.logo h1 span {
+    color: #808080;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin-left: 20px;
+}
+
+ul li a {
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    animation-duration: 7s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+}
+
+.hero {
+    animation-duration: 3s;
+    animation-delay: 2s;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    font-size: 43px;
+}
+
+#logo span {
+    color: #808080;
+}
+
+#logo2 {
+    font-size: 23px;
+}
+
+#logo2 span {
+    color: #808080;
+}
+
+#btn{
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite; 
+}
+
+#text{
+    color: #BFBFBF;
+}
+
+.swiper{
+    width: 80%;
+    height: fit-content;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: #9F9F9F;
+}
+
+.swiper .swiper-pagination-bullet-active{
+    background: #9F9F9F;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    animation-duration: 2s;
+    animation-delay: 3s;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+

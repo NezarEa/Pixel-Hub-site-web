@@ -1,0 +1,107 @@
+/* Photo results styles */
+.result-section.photos {
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 20px;
+}
+
+/* Article results styles */
+.result-section.articles {
+    border-bottom: 2px solid #00ccff;
+    padding-bottom: 20px;
+}
+
+/* FAQ results styles */
+.result-section.faq {
+    border-bottom: 2px solid #99ff99;
+    padding-bottom: 20px;
+}
+
+/* Common result section styles */
+.result-section h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.result-section li {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Larger screens styles */
+.result-section {
+    margin-bottom: 40px;
+    /* Add space between result sections */
+}
+
+/* Add top margin to main content */
+
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.post-card {
+    width: 870px;
+    background-color: #606060;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-user {
+    display: flex;
+    align-items: center;
+}
+
+.info-user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    margin-right: 10px;
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.content h4 {
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-success:hover,
+.btn-danger:hover {
+    opacity: 0.85;
+}
+
+
+/* Smaller screens styles */
+@media (max-width: 768px) {
+    .result-section {
+        padding: 20px;
+        /* Add padding to result sections */
+        border: none;
+        /* Remove borders */
+        margin-bottom: 20px;
+        /* Adjust margin */
+    }
+}

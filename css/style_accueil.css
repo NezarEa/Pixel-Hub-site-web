@@ -1,0 +1,385 @@
+.container-fluid {
+    margin-top: 20px;
+}
+
+.toggle-button {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#postForm {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.box:focus {
+    outline: none;
+    border-color: #0056b3;
+}
+
+.option-btn {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.flex-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.add-btn {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #004494;
+}
+
+.photo-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.photo-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.photo-card h3 {
+    margin-bottom: 5px;
+}
+
+.photo-card p {
+    margin-bottom: 5px;
+}
+
+.photo-card form {
+    margin-top: 10px;
+}
+
+.photo-card button:hover {
+    background-color: #b71c1c;
+}
+
+.messages {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.messages p {
+    margin-bottom: 5px;
+}
+
+.container-fluid {
+    margin-top: 20px;
+}
+
+.toggle-button {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #333;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.profile-section {
+    background: #606060;
+    color: #000;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-section .info {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.profile-section .form-label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.profile-section .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.profile-section .btn-primary {
+    background-color: #0056b3;
+    color: #DFDFDF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-section .btn-primary:hover {
+    background-color: #004494;
+}
+
+.profile-section img {
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.profile-info {
+    font-size: 18px;
+    color: #333;
+}
+
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    margin-top: 10px;
+}
+
+.box {
+    background-color: #606060;
+    /* Background color for the box */
+    border: 1px solid #ddd;
+    /* Border color */
+    padding: 20px;
+    /* Add padding */
+}
+
+.box p {
+    font-size: 18px;
+    /* Font size for the heading */
+    font-weight: bold;
+    /* Bold font weight */
+    margin-bottom: 10px;
+    /* Add some space below the heading */
+}
+
+.flex-box {
+    display: flex;
+    /* Use flexbox layout */
+    flex-wrap: wrap;
+    /* Allow items to wrap */
+}
+
+.type-box {
+    display: flex;
+    /* Use flexbox layout */
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.links {
+    background-color: #ddd;
+    /* Background color for links */
+    color: #000;
+    /* Text color for links */
+    padding: 10px;
+    /* Add padding */
+    margin-right: 10px;
+    /* Add some space between links */
+    margin-bottom: 10px;
+    /* Add some space below links */
+    text-decoration: none;
+    /* Remove underline from links */
+    border-radius: 5px;
+    /* Add border radius */
+}
+
+.btn-me {
+    background-color: #007bff;
+    /* Background color for button */
+    color: #fff;
+    /* Text color for button */
+    padding: 10px 20px;
+    /* Add padding */
+    margin-right: 10px;
+    /* Add some space between button and links */
+    margin-bottom: 10px;
+    /* Add some space below button */
+    text-decoration: none;
+    /* Remove underline from button */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Add border radius */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    /* Change background color on hover */
+}
+
+.link-btn {
+    background-color: #007bff;
+    /* Background color for links */
+    color: #fff;
+    /* Text color for links */
+    padding: 10px 20px;
+    /* Add padding */
+    margin-bottom: 10px;
+    /* Add some space between links */
+    text-decoration: none;
+    /* Remove underline from links */
+    border-radius: 5px;
+    /* Add border radius */
+    text-align: center;
+    /* Center align text */
+    transition: background-color 0.3s;
+    /* Smooth transition for background color */
+}
+
+.link-btn:hover {
+    background-color: #0056b3;
+    /* Change background color on hover */
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.post-card {
+    width: 870px;
+    background-color: #606060;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-user {
+    display: flex;
+    align-items: center;
+}
+
+.info-user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    margin-right: 10px;
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.content h4 {
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-success:hover,
+.btn-danger:hover {
+    opacity: 0.85;
+}
+
+html::-webkit-scrollbar {
+    background: #404040;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #DFDFDF;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #9F9F9F;
+}

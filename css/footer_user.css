@@ -1,0 +1,27 @@
+#logo2 {
+    font-size: 23px;
+}
+
+#logo2 span {
+    color: #808080;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    animation-duration: 2s;
+    animation-delay: 3s;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin: 0 auto;
+    width: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex: 0 0 auto;
+    padding: 1rem;
+}

@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #202020;
+    padding: 20px 0;
+    z-index: 1000;
+}
+
+
+.logo {
+    flex: 1;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo h1 span {
+    color: #808080;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    right: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links ul li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #9F9F9F;
+}
+
+.nav-links li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.search-form .form-control {
+    flex: 1;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #000;
+}
+
+.search-form button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5px;
+}
+
+.search-form button i {
+    color: #000;
+}
+
+.action {
+    position: relative;
+    top: 0;
+    right: 30px;
+}
+
+.action .profile {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.action .profile img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.action .menu {
+    position: absolute;
+    top: 80px;
+    right: -10px;
+    padding: 10px 20px;
+    background: #404040;
+    width: 200px;
+    box-sizing: 0 5px 25px #fff;
+    border-radius: 15px;
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.action .menu.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.action .menu::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 28px;
+    width: 20px;
+    height: 20px;
+    background: #404040;
+    transform: rotate(45deg);
+}
+
+.action .menu h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #DFDFDF;
+    line-height: 1.2em;
+}
+
+.action .menu h3 span {
+    font-size: 12px;
+    color: #9F9F9F;
+    font-weight: 400;
+}
+
+.action .menu ul li {
+    list-style: none;
+    padding: 10px 0;
+    border-top: 1px solid rgb(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.action .menu ul li a {
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.action .menu ul li a i {
+    margin-right: 10px;
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+.action .menu ul li a:hover i {
+    opacity: 1;
+}
+
+.action .menu ul li:hover {
+    color: #9F9F9F;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #202020;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        padding: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .search-form {
+        margin: 10px 0;
+    }
+}

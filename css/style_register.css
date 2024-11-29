@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html::-webkit-scrollbar {
+    background: #404040;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #DFDFDF;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #9F9F9F;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    animation-duration: 7s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo h1 span {
+    color: #808080;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin-left: 20px;
+}
+
+ul li a {
+    color: #fff;
+}
+
+section {
+    animation-duration: 4s;
+    animation-delay: 1ms;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.form {
+    height: auto;
+    /* Adjust the height as needed */
+}
+
+.card {
+    background: #202020;
+    color: #fff;
+    width: 50%;
+    max-width: 600px;
+    /* Adjust the max-width as needed */
+    margin: auto;
+    /* This will center the card horizontally */
+    padding: 20px;
+    /* Adjust padding as needed */
+    /* Center the content horizontally */
+}
+
+.card button {
+    margin-top: 20px;
+    /* Adjust the top margin of the button */
+}
+
+.form-label,
+.form-control {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+
+.form-label,
+.form-control {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    animation-duration: 2s;
+    animation-delay: 3s;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
